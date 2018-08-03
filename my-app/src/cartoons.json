@@ -1,0 +1,75 @@
+[
+    {
+        "id": 1,
+        "name": "Pikachu",
+        "image": "http://getdrawings.com/image/japanese-cartoon-drawing-51.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Hello Kitty",
+        "image": "https://mattwyles.files.wordpress.com/2015/01/stokes-hello-kitty2-1200.jpg"
+
+    },
+    {
+        "id": 3,
+        "name": "Doraemon",
+        "image": "https://i.pinimg.com/originals/cf/ad/6f/cfad6f938af0aec9c9cb4b3214dea18b.jpg"
+
+    },
+    {
+        "id": 4,
+        "name": "Shin chan",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/513H8yy5CAL._US500_.jpg"
+
+    },
+    {
+        "id": 5,
+        "name": "Astro Boy",
+        "image": "https://orange.japan-talk.com/images/jt/astro-boy1851412631225191040.jpeg"
+
+    },
+    {
+        "id": 6,
+        "name": "Sailor Moon",
+        "image": "http://s.orzzzz.com/news/7c/2a//564431e9b13ed.jpg"
+
+    },
+    {
+        "id": 7,
+        "name": "Piggy Bank ",
+        "image": "http://1.bp.blogspot.com/-Bv8PWPfk99k/U9RjpdV3e3I/AAAAAAAACBY/7lFJ7NQ8s1Q/s1600/rilakkuma006.jpg"
+
+    },
+    {
+        "id": 8,
+        "name": "Ninja",
+        "image": "https://imgcp.aacdn.jp/img-a/1200/auto/global-aaj-front/article/2017/04/58e493816398b_58e49176962bc_1263789919.jpg"
+
+    },
+    {
+        "id": 9,
+        "name": "Tezuka",
+        "image": "https://qph.fs.quoracdn.net/main-qimg-1dc576efdfaeb2b72b3eb182f3ef946b"
+
+    },
+    {
+        "id": 10,
+        "name": "Dragon Ball",
+        "image": "http://idata.over-blog.com/2/57/58/71/image-blog/dragonball1.jpg"
+
+    },
+    {
+        "id": 11,
+        "name": "Conan",
+        "image": "http://i.imgur.com/6EK6A.jpg"
+
+    },
+    {
+        "id": 12,
+        "name": "Ikkyu San",
+        "image": "https://alchetron.com/cdn/ikky-san-eb9f7eac-2d55-402d-9926-3668d90e56e-resize-750.jpeg"
+
+    }
+
+
+    ]
