@@ -1,37 +1,37 @@
 nav {
     width: 100%;
-    font-size: 3rem;
+    font-size: 30px;
     color: #fff;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     background-color: rgb(56, 56, 56);
     height: auto;
     font-family: 'Bungee', cursive;
+    /* position: relative; */
   }
   
   a {
-    color: #fed420;
+    color: #9d31b3;
   }
   
   a:hover {
-    color: #fed420;
+    color: #8b4cc7;
     text-decoration: none;
   }
   
   nav li {
     display: inline-block;
-    padding: 26px 0;
+    padding: 20px 0;
     width: 25%;
-    /* text-align: center; */
+   
   }
   
   ul {
-    /* padding-left: 0px; */
     display: flex;
     align-items: center;
   }
   
-  @media only screen and (max-width: 750px) {
+  /* @media only screen and (max-width: 750px) {
     #cur-sco, #top-sco {
       font-size: 2rem;
-    }
-  }
+    } */
+  /* } */

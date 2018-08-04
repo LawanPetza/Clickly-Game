@@ -1,14 +1,14 @@
 .card {
-  /* background: #fff; */
+  background: rgb(255, 255, 255);
   border-radius: 2px;
   height: 200px;
   margin: 15px;
   position: relative;
   width: 200px;
-  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  box-shadow: 0 3px 6px rgb(11, 1, 29)
 }
 
-/* need to center img */
+
 .card > .img-container {
   height: 90%;
   overflow: hidden;

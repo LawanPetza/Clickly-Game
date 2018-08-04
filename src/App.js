@@ -21,7 +21,7 @@ class App extends Component {
     characters,
     currentScore: 0,
     topScore: 0,
-    rightWrong: "",
+    message: "",
     clicked: [],
   };
 
@@ -38,13 +38,13 @@ class App extends Component {
     const newScore = this.state.currentScore + 1;
     this.setState({
       currentScore: newScore,
-      rightWrong: ""
+      message: "You guessed Correctly!"
     });
     if (newScore >= this.state.topScore) {
       this.setState({ topScore: newScore});
     }
     else if (newScore === 12) {
-      this.setState({rightWrong: "You got it" });
+      this.setState({message: "Great job!!" });
     }
     this.handleShuffle();
   };
@@ -53,7 +53,7 @@ class App extends Component {
       this.setState ({
         currentScore: 0,
         topScore: this.state.topScore,
-        rightWrong: "Nice job!",
+        message: "You guessed Incorrectly!",
         clicked: []
       });
       this.handleShuffle();
@@ -69,10 +69,10 @@ class App extends Component {
     return (
       <Wrapper>
         <Navbar
-        title="Japanese Cartoon Clicky Game"
+        title="Clicky-Game"
         score={this.state.currentScore}
         topScore={this.state.topScore}
-        rightWrong={this.state.rightWrong}
+        message={this.state.message}
         
         />
         <Title>Japanese Characters List</Title>
