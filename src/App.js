@@ -3,7 +3,7 @@ import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import Navbar from "./components/Navbar";
 import characters from "./characters.json";
-import "./App.css";
+// import "./App.css";
 import CharactersCard from "./components/CharactersCard";
 
 
