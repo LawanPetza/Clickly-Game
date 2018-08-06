@@ -5,17 +5,14 @@ const Navbar = props => (
   
   <nav>
     <ul>
-      <li className="navbar navbar-expand-lg navbar-light bg-light">
+      <li className="nav nav nav-justified">
         <a href="/clicky-game/">{props.title}</a>
       </li>
 
       <li id="rw"><span style ={{color: "red"}}>{props.message}</span></li>
 
-      <li>Score: <span style={{color: "purple"}}>{props.score}</span> | Top Score: {props.topScore}</li>
+      <li>Score: <span style={{color: "purple"}}>{props.score}</span> | Top Score: {props.topScore} </li>
 
-      {/* <li id="cur-sco">Current Score: {props.score}</li>
-
-      <li id="top-sco">Top Score: {props.topScore}</li> */}
     </ul>
   </nav>
 

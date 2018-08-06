@@ -75,7 +75,7 @@ class App extends Component {
         message={this.state.message}
         
         />
-        <Title>Japanese Characters List</Title>
+        <Title>Japanese Cartoons Clicky-Game</Title>
         {this.state.characters.map(character => (
           <CharactersCard
             // removeFriend={this.removeFriend}
